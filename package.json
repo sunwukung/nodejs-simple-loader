@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-simple-loader",
+  "description": "Wraps require to allow dependency injection",
+  "version": "0.1.0",
+  "author": {
+    "name": "Marcus Kielly"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sunwukung/nodejs-simple-loader.git"
+  },
+  "main": "loader.js",
+  "engines": {
+    "node": ">= 0.8.8"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "lodash": "1.3.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "0.6.0",
+    "should" : "1.2.2",
+    "grunt-shell": "~0.2.2",
+    "grunt-simple-mocha" : "0.4.0"
+  }
+}
