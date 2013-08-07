@@ -8,7 +8,7 @@ In the context of an express application - wrap app.js in a bootstrap.js file:
     var path = require('path');
     var myapp = require('./app.js');
 
-    var loader = require('./server/services/loader.js');
+    var loader = require('nodejs-simple-loader');
 
     // give the loader the root directory
     // and an object mapping module names
