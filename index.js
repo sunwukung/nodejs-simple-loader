@@ -1,1 +1,1 @@
-module.exports = require('./lib/loader.js');
+module.exports = require('./lib/simple-loader.js');
